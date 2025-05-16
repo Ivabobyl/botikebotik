@@ -1,0 +1,80 @@
+{
+  "rates": {
+    "ltc_usd_buy": 100.0,
+    "ltc_usd_sell": 80.0,
+    "usd_rub_buy": 16.0,
+    "usd_rub_sell": 21.0,
+    "ltc_\u2795_buy": 80.0,
+    "ltc_\u2795_sell": 78.0,
+    "ltc_\ud83d\udd19_buy": 80.0,
+    "ltc_\ud83d\udd19_sell": 78.0
+  },
+  "referral": {
+    "levels": [
+      {
+        "min": 1,
+        "max": 10,
+        "percentage": 10.0
+      },
+      {
+        "min": 11,
+        "max": 25,
+        "percentage": 12.5
+      },
+      {
+        "min": 26,
+        "max": 50,
+        "percentage": 15.0
+      },
+      {
+        "min": 51,
+        "max": 100,
+        "percentage": 17.5
+      },
+      {
+        "min": 101,
+        "max": Infinity,
+        "percentage": 20.0
+      }
+    ]
+  },
+  "admin_ids": [
+    7961024553
+  ],
+  "min_amount": 1.0,
+  "currencies": {
+    "crypto": [
+      {
+        "code": "LTC",
+        "name": "Litecoin",
+        "enabled": true
+      }
+    ],
+    "fiat": [
+      {
+        "code": "USD",
+        "name": "\u0414\u043e\u043b\u043b\u0430\u0440 \u0421\u0428\u0410",
+        "symbol": "$",
+        "enabled": true
+      },
+      {
+        "code": "RUB",
+        "name": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0440\u0443\u0431\u043b\u044c",
+        "symbol": "\u20bd",
+        "enabled": true
+      },
+      {
+        "code": "\u2795",
+        "name": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c",
+        "symbol": "\u0444\u0438\u0430\u0442\u043d\u0443\u044e \u0432\u0430\u043b\u044e\u0442\u0443",
+        "enabled": true
+      },
+      {
+        "code": "\ud83d\udd19",
+        "name": "\u041d\u0430\u0437\u0430\u0434",
+        "symbol": "\u043a \u0432\u0430\u043b\u044e\u0442\u0430\u043c",
+        "enabled": true
+      }
+    ]
+  }
+}

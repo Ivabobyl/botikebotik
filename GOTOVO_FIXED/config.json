@@ -1,0 +1,40 @@
+{
+  "rates": {
+    "ltc_usd_buy": 70.0,
+    "ltc_usd_sell": 68.0,
+    "usd_rub_buy": 90.0,
+    "usd_rub_sell": 88.0
+  },
+  "referral": {
+    "levels": [
+      {
+        "min": 1,
+        "max": 10,
+        "percentage": 10.0
+      },
+      {
+        "min": 11,
+        "max": 25,
+        "percentage": 12.5
+      },
+      {
+        "min": 26,
+        "max": 50,
+        "percentage": 15.0
+      },
+      {
+        "min": 51,
+        "max": 100,
+        "percentage": 17.5
+      },
+      {
+        "min": 101,
+        "max": Infinity,
+        "percentage": 20.0
+      }
+    ]
+  },
+  "admin_ids": [
+    7961024553
+  ]
+}
